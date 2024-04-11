@@ -1,0 +1,28 @@
+.container{
+    max-width: 90%;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+   background: rgb(171, 171, 238);
+   padding: 25px;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+}
+.container h1{
+    font-size: 25px;
+}
+.content, .main_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.weather{
+text-align: center;
+}
+.other_content h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
