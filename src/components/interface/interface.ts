@@ -7,7 +7,7 @@ interface optionsData {
 
 
 interface putWeather {
-  map(arg0: (e: any, index: React.Key | null | undefined) => import("react/jsx-runtime").JSX.Element): React.ReactNode;
+  map(arg0: (e: putWeather, index: React.Key | null | undefined) => import("react/jsx-runtime").JSX.Element): React.ReactNode;
   clouds: {
     all: number,
   },
