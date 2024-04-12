@@ -1,14 +1,16 @@
-.container{
+.container {
+    width: 200px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    text-align: center;
+    gap: 5px;
     border: none;
     border-radius: 15px;
     background: rgb(175, 175, 248);
-    box-shadow: -74px -75px 47px -75px rgba(0,0,0,0.53) inset;
-    -webkit-box-shadow: -74px -75px 47px -75px rgba(0,0,0,0.53) inset;
-    -moz-box-shadow: -74px -75px 47px -75px rgba(0,0,0,0.53) inset;
+    box-shadow: -74px -75px 47px -75px rgba(0, 0, 0, 0.53) inset;
+    -webkit-box-shadow: -74px -75px 47px -75px rgba(0, 0, 0, 0.53) inset;
+    -moz-box-shadow: -74px -75px 47px -75px rgba(0, 0, 0, 0.53) inset;
 }

@@ -1,0 +1,19 @@
+.btn {
+
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.btn:hover {
+    transition: 2s;
+    background: rgb(93, 230, 118);
+    box-shadow: -74px -75px 47px -75px rgba(220, 62, 62, 0.53) inset;
+    -webkit-box-shadow: -74px -75px 47px -75px rgba(220, 62, 62, 0.53) inset;
+    -moz-box-shadow: -74px -75px 47px -75px rgba(220, 62, 62, 0.53) inset;
+}
